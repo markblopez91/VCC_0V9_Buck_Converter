@@ -2,67 +2,51 @@
 
 ## Overview
 
-This project implements a 3.3V to 0.9V synchronous buck converter using the Texas Instruments TPS62060 switching regulator. The design was created in Altium Designer and includes schematic capture, component placement, PCB layout, routing, and design rule verification.
+This project is a 0.9V buck converter PCB designed in Altium Designer using the TPS62060 switching regulator.
 
-## Specifications
+The design converts a higher input voltage to a regulated 0.9V output while maintaining efficient power conversion and compact PCB layout.
 
-* Input Voltage: 3.3V
-* Output Voltage: 0.9V
-* Switching Regulator: TPS62060DSG
-* Inductor: 1.2 µH
-* Output Capacitors: 22 µF
-* PCB Design Tool: Altium Designer
+## Design Features
 
-## Design Process
+- TPS62060 step-down converter
+- 0.9V regulated output
+- 2-layer PCB design
+- Altium Designer implementation
+- Design Rule Check (DRC) clean
+- Compact component placement
+- Power routing and ground return optimization
 
-1. Created the schematic based on the TPS62060 datasheet reference design.
-2. Selected input/output capacitors, inductor, and feedback resistors.
-3. Performed PCB component placement following switching power supply layout recommendations.
-4. Routed the PCB and optimized trace paths.
-5. Verified the design using Altium Design Rule Check (DRC).
-6. Generated fabrication and assembly outputs.
+## Tools Used
 
-## Design Files
+- Altium Designer
+- TPS62060 Datasheet
+- PCB Design Rules Verification
 
-* VCC_0V9.SchDoc
-* VCC_0V9.PcbDoc
-* VCC_0V9_Project.PrjPcb
+## Project Files
 
-## Results
+- TPS62060_Buck_Converter.zip (complete project files)
+- layout_top.png
+- placement_view.png
+- layout_3d.png
+- drc_report.png
 
-The PCB layout passed Altium Design Rule Check (DRC) with:
+## Placement View
 
-* 0 Rule Violations
-* 0 Warnings
+![Placement View](placement_view.png)
 
-## Images
+## Top Layer Routing
 
-### Schematic
+![Top Layer](layout_top.png)
 
-(Add schematic screenshot here)
+## 3D View
 
-### Component Placement
+![3D View](layout_3d.png)
 
-(Add placement screenshot here)
+## DRC Verification
 
-### PCB Layout
+![DRC Report](drc_report.png)
 
-(Add top-layer layout screenshot here)
+## Author
 
-### 3D PCB View
-
-(Add 3D view screenshot here)
-
-### DRC Verification Report
-
-(Add DRC report screenshot here)
-
-## Skills Demonstrated
-
-* PCB Design
-* Schematic Capture
-* Component Selection
-* PCB Layout and Routing
-* Design Rule Verification (DRC)
-* Power Electronics
-* Altium Designer
+Mark Lopez  
+M.S. Electrical Engineering
