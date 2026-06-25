@@ -29,6 +29,10 @@ The design converts a 3.3V input voltage to a regulated 0.9V output while mainta
 - placement_view.png
 - layout_3d.png
 - drc_report.png
+- schematic.png
+
+## Schematic
+![Schematic](schematic.png)
 
 ## Placement View
 
