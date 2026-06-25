@@ -4,7 +4,7 @@
 
 This project is a 0.9V buck converter PCB designed in Altium Designer using the TPS62060 switching regulator.
 
-The design converts a higher input voltage to a regulated 0.9V output while maintaining efficient power conversion and compact PCB layout.
+The design converts a 3.3V input voltage to a regulated 0.9V output while maintaining efficient power conversion and a compact PCB layout.
 
 ## Design Features
 
